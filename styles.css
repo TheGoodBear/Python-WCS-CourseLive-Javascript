@@ -1,0 +1,33 @@
+/* style for Names tag (id selector) */
+#Names
+{
+    font-size: xx-large;
+    margin-top: 50px;
+    color: blueviolet;
+    /* transition-duration: 500ms; */
+}
+
+/* style for Counter tag (id selector) */
+#Counter
+{
+    font-size: x-large;
+    margin: 20px;
+}
+
+/* style for div tags children of Numbers tag (id and element selector) */
+#Numbers > div
+{
+    display: inline-block;
+    font-size: x-large;
+    margin: 20px;
+    padding: 10px;
+    background: yellow;
+}
+
+/* style for input tags (element selector) */
+input
+{
+    margin: 10px;
+    font-size: x-large;
+    background: yellowgreen;
+}
